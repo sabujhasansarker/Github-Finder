@@ -30,11 +30,11 @@ const DemoUser = ({match}) => {
                            <h1>{login}</h1>
                            <p>Location: {location}</p>
                        </div>
-                       <Fragment>
-                           {bio && <Fragment>
+                       <div className="bio">
+                           {bio && <div className="bio-content">
                                        <h3>Bio</h3>
                                        <p>{bio}</p>
-                                   </Fragment>	
+                                   </div>	
                            }
                            <a href={html_url} className="btn btn-dark my-1">Visit Github Profile</a>
                            <ul>
@@ -42,7 +42,7 @@ const DemoUser = ({match}) => {
                                {company && (<li><strong>Company: </strong> {company}</li>)}
                                {blog && (<li><strong>Website: </strong> {blog}</li>)}
                            </ul>
-                       </Fragment>
+                       </div>
                    </div>
                    <div className="card text-center">
                        <div className="badge badge-primary">Followers: {followers}</div>

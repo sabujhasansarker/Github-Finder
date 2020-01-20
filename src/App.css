@@ -415,3 +415,12 @@ table th {
 .sabuj{
   color: green
 }
+.bio {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.card.grid-2 {
+  position: relative;
+}
