@@ -26,6 +26,7 @@ body {
 a {
   color: var(--primary-color);
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
@@ -417,8 +418,9 @@ table th {
 }
 .bio {
   position: absolute;
-  bottom: 10%;
-  right: 10%;
+  bottom: 7%;;
+  right: 10px;
+  width: 40%;
 }
 
 .card.grid-2 {
