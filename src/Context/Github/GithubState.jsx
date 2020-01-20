@@ -47,8 +47,6 @@ const GithubState = props =>{
 		  })
 		};
 		getMount();
-		getUser();
-		getRepo();
 		// eslint-disable-next-line
 	  }, []);
 
@@ -87,7 +85,6 @@ const GithubState = props =>{
 			type :  SINGLE_USER,
 			payload : user.data
 		})
-		
 	  };
 
 	  // get repos

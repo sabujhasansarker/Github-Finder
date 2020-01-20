@@ -8,7 +8,8 @@ const DemoUser = ({match}) => {
     const {getUser,user,loading,getRepo,repo}= gethubContext
     useEffect(() => {
 		getRepo(match.params.name)
-	   getUser(match.params.name)
+       getUser(match.params.name)
+    //    console.log(match.params.name)
 	   
     }, [])
     const {login,avatar_url,html_url,followers,following,hireable,blog,bio,public_repos,public_gists,location,company} = user	
